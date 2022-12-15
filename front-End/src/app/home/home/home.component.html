@@ -1,0 +1,26 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<mat-card class="banner">
+  <img src="../../../assets/img/home/banner.png" alt="">
+
+</mat-card>
+<div class="contente" >
+  <ul id="galeria" *ngIf="Servico.length > 0"   >
+    <li *ngFor="let servico of Servico" >
+      <mat-card-subtitle   class="text-subtitle"> {{servico.descricao}}
+      </mat-card-subtitle>
+      <figure>
+        <img  src="{{servico.foto}}"alt="">
+      </figure>
+    </li>
+
+
+  </ul>
+</div>
+<mat-card class="banner">
+  <img src="../../../assets/img/home/banner.png" alt="">
+</mat-card>
+

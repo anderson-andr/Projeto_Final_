@@ -1,0 +1,31 @@
+<mat-toolbar class="menu" color="primary">
+  <span>Service_Play</span>
+  <Nav>
+    <ul>
+      <li>
+        <div *ngIf="onDeslogado()">
+        <button mat-button (click)="onCadastro()">Cadastre-se</button>
+        </div>
+        <div *ngIf="onLogado()">
+          <button mat-button (click)="OnConta()">Conta</button>
+        </div>
+      </li>
+      <li>
+        <button mat-button>Sobre</button>
+      </li>
+      <li>
+        <button (click)="onBack()" mat-button> Inicio</button>
+      </li>
+      <li>
+        <div *ngIf="onDeslogado()">
+          <button (click)="onLogin()" mat-button>Login</button>
+        </div>
+        <div *ngIf="onLogado()">
+          <button mat-button (click)="deslogar()">Sair</button>
+        </div>
+      </li>
+    </ul>
+  </Nav>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

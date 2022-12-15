@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  box-shadow: none;
+
+
+}
+
+
+.loading-spinner {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.15);
+
+}
+.perfil{
+  border: none;
+  border-radius: 0;
+}
+
+.açoes {
+  border: none;
+  border-radius: 0;
+}
+.acoes button {
+      background-color:#2196f3;
+      color: #f2f2f2;
+
+}

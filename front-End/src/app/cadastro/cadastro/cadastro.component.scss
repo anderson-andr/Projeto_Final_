@@ -1,0 +1,38 @@
+.mat-card{
+  max-width: 60%;
+  margin: 1em auto;
+  text-align: center;
+  margin-top: 5px;
+  padding: 0px;
+}
+
+.title
+ {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+
+ }
+
+
+
+ .full-width {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 8px;
+
+ }
+
+
+.min-width {
+  width: 100%;
+  min-width: 150px;
+}
+
+.mat-label  {
+  color:rgb(218, 212, 212);
+}
+.mat-option {
+  color:rgb(184, 183, 183);
+}
